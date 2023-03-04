@@ -1,0 +1,28 @@
+{
+  "name": "desafio-git-full-cycle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will-uplanner/git-gitflow-full-cycle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/will-uplanner/git-gitflow-full-cycle/issues"
+  },
+  "homepage": "https://github.com/will-uplanner/git-gitflow-full-cycle#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
